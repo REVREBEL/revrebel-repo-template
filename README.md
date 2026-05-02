@@ -6,7 +6,7 @@
     />
     <img
       src=".github/assets/readme-banner_light.png"
-      alt="__REPO__ repository banner"
+      alt="revrebel-repo-template repository banner"
     />
   </picture>
 </p>
@@ -30,14 +30,14 @@ In any repo → **Actions → New workflow** → pick “Node CI (pnpm)”, “R
 <br>
 <br>
 
-# __REPO__
+# revrebel-repo-template
 
 <div align="left">
-  <a href="https://github.com/__OWNER__/__REPO__/issues">
-    <img src="https://img.shields.io/github/issues/__OWNER__/__REPO__?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
+  <a href="https://github.com/REVREBEL/revrebel-repo-template/issues">
+    <img src="https://img.shields.io/github/issues/REVREBEL/revrebel-repo-template?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
   </a>
-  <a href="https://github.com/__OWNER__/__REPO__/pulls">
-    <img src="https://img.shields.io/github/issues-pr/__OWNER__/__REPO__?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
+  <a href="https://github.com/REVREBEL/revrebel-repo-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/REVREBEL/revrebel-repo-template?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
   </a>
 </div>
 
