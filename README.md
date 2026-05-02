@@ -30,7 +30,7 @@ In any repo → **Actions → New workflow** → pick “Node CI (pnpm)”, “R
 <br>
 <br>
 
-# __REPO__**
+# revrebel-repo-template**
 
 <div align="left">
   <a href="https://github.com/REVREBEL/revrebel-repo-template/issues">
