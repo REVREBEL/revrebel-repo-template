@@ -6,38 +6,22 @@
     />
     <img
       src=".github/assets/readme-banner_light.jpg"
-      alt="revrebel-repo-template repository banner"
+      alt="__REPO__ repository banner"
     />
   </picture>
 </p>
 
-# REVREBEL ORG WIDE CONFIG
+__REPO__ a project by REVREBEL
 
-Standardized community health files, issue/PR templates, and GitHub Actions for all repositories in the organization.
 
-<br>
-<br>
-
-## REUSABLE CI
-Other repos can call: `REVREBEL/.github/workflows/_ci-reusable.yml@main`
-
-<br>
-<br>
-
-## STARTER TEMPLATES
-In any repo → **Actions → New workflow** → pick “Node CI (pnpm)”, “Release Please”, or “CodeQL” from org templates.
-
-<br>
-<br>
-
-# revrebel-repo-template
+# __REPO__
 
 <div align="left">
-  <a href="https://github.com/REVREBEL/revrebel-repo-template/issues">
-    <img src="https://img.shields.io/github/issues/REVREBEL/revrebel-repo-template?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
+  <a href="https://github.com/__OWNER__/__REPO__/issues">
+<img src="https://img.shields.io/github/issues/__OWNER__/__REPO__?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
   </a>
-  <a href="https://github.com/REVREBEL/revrebel-repo-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/REVREBEL/revrebel-repo-template?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
+  <a href="https://github.com/__OWNER__/__REPO__/pulls">
+<img src="https://img.shields.io/github/issues-pr/REVREBEL/revrebel-repo-template?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
   </a>
 </div>
 
