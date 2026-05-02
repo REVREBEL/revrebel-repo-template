@@ -11,7 +11,7 @@
   </picture>
 </p>
 
-revrebel-repo-template a project by REVREBEL
+<p align="left">revrebel-repo-template a project by REVREBEL</p>
 
 
 # revrebel-repo-template
