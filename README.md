@@ -6,22 +6,21 @@
     />
     <img
       src=".github/assets/readme-banner_light.jpg"
-      alt="revrebel-repo-template repository banner"
+      alt="__REPO__ repository banner"
     />
   </picture>
 </p>
 
-<p align="right">revrebel-repo-template a project by REVREBEL</p>
+<p align="right">__REPO__ a project by __OWNER__</p>
 
-
-# revrebel-repo-template
+# __REPO__
 
 <div align="left">
-  <a href="https://github.com/REVREBEL/revrebel-repo-template/issues">
-<img src="https://img.shields.io/github/issues/REVREBEL/revrebel-repo-template?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
+  <a href="https://github.com/__OWNER__/__REPO__/issues">
+    <img src="https://img.shields.io/github/issues/__OWNER__/__REPO__?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
   </a>
-  <a href="https://github.com/REVREBEL/revrebel-repo-template/pulls">
-<img src="https://img.shields.io/github/issues-pr/REVREBEL/revrebel-repo-template?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
+  <a href="https://github.com/__OWNER__/__REPO__/pulls">
+    <img src="https://img.shields.io/github/issues-pr/__OWNER__/__REPO__?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
   </a>
 </div>
 
@@ -87,3 +86,4 @@
       </td>
     </tr>
   </tbody>
+</table>
