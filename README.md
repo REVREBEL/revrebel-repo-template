@@ -2,10 +2,10 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github.com/REVREBEL/__REPO__/.github/assets/readme-banner_dark.png"
+      srcset="https://github.com/REVREBEL/revrebel-repo-template/.github/assets/readme-banner_dark.png"
     />
     <img
-      src="https://github.com/REVREBEL/__REPO__/.github/assets/readme-banner_light.png"
+      src="https://github.com/REVREBEL/revrebel-repo-template/.github/assets/readme-banner_light.png"
       alt="Repository banner"
     />
   </picture>
@@ -33,11 +33,11 @@ In any repo → **Actions → New workflow** → pick “Node CI (pnpm)”, “R
 # ${{ github.repository }}**
 
 <div align="left">
-  <a href="https://github.com/__OWNER__/__REPO__/issues">
-    <img src="https://img.shields.io/github/issues/__OWNER__/__REPO__/.github?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
+  <a href="https://github.com/REVREBEL/revrebel-repo-template/issues">
+    <img src="https://img.shields.io/github/issues/REVREBEL/revrebel-repo-template/.github?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
   </a>
-  <a href="https://github.com/__OWNER__/__REPO__/pulls">
-    <img src="https://img.shields.io/github/issues-pr/__OWNER__/__REPO__/.github?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
+  <a href="https://github.com/REVREBEL/revrebel-repo-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/REVREBEL/revrebel-repo-template/.github?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
   </a>
 </div>
 
