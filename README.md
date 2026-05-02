@@ -2,10 +2,10 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset=".github/assets/readme-banner_dark.png"
+      srcset=".github/assets/readme-banner_dark.jpg"
     />
     <img
-      src=".github/assets/readme-banner_light.png"
+      src=".github/assets/readme-banner_light.jpg"
       alt="revrebel-repo-template repository banner"
     />
   </picture>
