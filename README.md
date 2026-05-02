@@ -1,13 +1,11 @@
-[![Social banner for REVREBEL](https://raw.githubusercontent.com/REVREBEL/.github/main/assets/header-banner.gif)](https://revrebel.io)
-
-<p align="center">
+<p align="left">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/assets/readme-banner_dark.png"
+      srcset="https://github.com/REVREBEL/.github/assets/readme-banner_dark.png"
     />
     <img
-      src="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/readme-banner_light.png"
+      src="https://github.com/REVREBEL/.github/assets/readme-banner_light.png"
       alt="Repository banner"
     />
   </picture>
