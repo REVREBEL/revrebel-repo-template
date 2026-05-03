@@ -11,9 +11,9 @@
   </picture>
 </p>
 
-<p align="right">__REPO__ a project by __OWNER__</p>
+<p align="right">__REPO__ a project by REVREBEL</p>
 
-# __REPO__
+# __REPO_UPPER__
 
 <div align="left">
   <a href="https://github.com/__OWNER__/__REPO__/issues">
