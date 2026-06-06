@@ -12,9 +12,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "revrebel-like-api-db"
-      // Run `npm run db:create`, then paste the returned database_id here:
-      // "database_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      "database_name": "revrebel-like-api-db",
+      "database_id": "PASTE_DATABASE_ID_HERE"
     }
   ]
 }
