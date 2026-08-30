@@ -1,134 +1,89 @@
-# REVREBEL Like API
+<p align="left">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset=".github/assets/readme-banner_dark.jpg"
+    />
+    <img
+      src=".github/assets/readme-banner_light.jpg"
+      alt="__REPO__ repository banner"
+    />
+  </picture>
+</p>
 
-Cloudflare Worker API for Webflow-powered like and view counters.
+<p align="right">__REPO__ a project by REVREBEL</p>
 
-This project uses **Cloudflare Workers** for the API and **Cloudflare D1** for storage so the database schema is owned by the repo through SQL migrations.
+# __REPO_UPPER__
 
-## Routes
+<div align="left">
+  <a href="https://github.com/__OWNER__/__REPO__/issues">
+    <img src="https://img.shields.io/github/issues/__OWNER__/__REPO__?color=163666&style=for-the-badge&logo=github" alt="Issues"/>
+  </a>
+  <a href="https://github.com/__OWNER__/__REPO__/pulls">
+    <img src="https://img.shields.io/github/issues-pr/__OWNER__/__REPO__?color=71c9c5&style=for-the-badge&logo=github" alt="PRs"/>
+  </a>
+</div>
 
-```txt
-GET  /
-GET  /api/health
-GET  /likes-views-devlink.js
-POST /api/views/increment
-POST /api/likes/increment
-POST /api/likes/decrement
-GET  /api/stats/:slug
-```
+<br>
+<br>
 
-## Database
+## **THE PROJECT**
 
-The Worker expects a D1 binding named:
+* <!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
 
-```txt
-DB
-```
+<br>
+<br>
 
-The Wrangler database name is:
+## **INSTALLATION**
 
-```txt
-revrebel-like-api-db
-```
+* <!-- ... [SHOW HOW YOUR PROJECT IS INSTALLED] -->
 
-Migrations create:
 
-```txt
-content_counters
-counter_events
-```
 
-## First-time setup
+## **USAGE**
 
-Install dependencies:
+* <!-- ... [SHOW HOW YOUR PROJECT IS USED] -->
 
-```bash
-npm install
-```
+<br>
+<br>
 
-Create the D1 database:
+## **PROJECT TREE**
 
-```bash
-npm run db:create
-```
+<!-- ... [SHOW YOUR PROJECT TREE HERE IF USEFUL] -->
 
-Wrangler will return a `database_id`. Paste that ID into `wrangler.jsonc` under `d1_databases`:
+<br>
+<br>
 
-```jsonc
-"d1_databases": [
-  {
-    "binding": "DB",
-    "database_name": "revrebel-like-api-db",
-    "database_id": "PASTE_DATABASE_ID_HERE"
-  }
-]
-```
+## **NOTES**
 
-Apply migrations to the remote D1 database:
+* <!-- ... [ADD ADDITIONAL NOTES] -->
 
-```bash
-npm run db:migrate:remote
-```
+<br>
+<br>
 
-Deploy the Worker:
+## **SCREENSHOTS**
 
-```bash
-npm run deploy
-```
+<!-- ... [SOME DESCRIPTIVE IMAGES] -->
 
-## Cloudflare Workers Builds
 
-After the D1 database exists and the `database_id` is committed in `wrangler.jsonc`, use this build/deploy command:
 
-```bash
-npm run db:migrate:remote && npm run deploy
-```
+<br>
+<br>
 
-If Cloudflare does not install dependencies automatically, use:
-
-```bash
-npm install && npm run db:migrate:remote && npm run deploy
-```
-
-## Webflow embed
-
-Add this before `</body>`:
-
-```html
-<script>
-  window.LIKES_API_BASE = "https://likes.revrebel.io";
-</script>
-<script src="https://likes.revrebel.io/likes-views-devlink.js"></script>
-```
-
-Example attributes:
-
-```html
-<button data-action-like="your-post-slug" data-storage-key="your-post-slug" aria-pressed="false">
-  Like <span data-metric-like="your-post-slug">0</span>
-</button>
-
-<div data-action-view="your-post-slug" hidden></div>
-Views: <span data-metric-view="your-post-slug">0</span>
-```
-
-## Test commands
-
-Health:
-
-```bash
-curl https://likes.revrebel.io/api/health
-```
-
-Increment like:
-
-```bash
-curl -X POST https://likes.revrebel.io/api/likes/increment \
-  -H "Content-Type: application/json" \
-  -d '{"slug":"test-post"}'
-```
-
-Get stats:
-
-```bash
-curl https://likes.revrebel.io/api/stats/test-post
-```
+<table>
+  <tbody>
+    <tr>
+      <td valign="middle" width="1200" height="200" >
+          <div>
+            <img src="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/get-in-touch_dark.png" alt="Get in Touch" width="150" valign="top" />
+            &emsp;
+            <a href="https://github.com/REVREBEL" target="_blank"><img src="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/icons/github-outline_dark.png" alt="GitHub" width="36" /></a>
+            <a href="mailto:hello@revrebel.io" target="_blank" target="_blank"><img src="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/icons/email-outline_dark.png" alt="Email" width="36" /></a>
+            <a href="https://www.linkedin.com/company/revrebel/" target="_blank"><img src="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/icons/linkedin-outline.png" alt="LinkedIn" width="36" /></a>
+            <a href="https://www.revrebel.io/blog" target="_blank"><img src="https://raw.githubusercontent.com/REVREBEL/.github/main/assets/icons/blog-outline.png" alt="Blog" width="36" /></a>
+            <a href="https://revrebel.io" target="_blank" style="display: inline-block;"><img src="https://img.shields.io/badge/website-163666?style=for-the-badge" alt="Website" height="40" align="right" /></a>
+          </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
